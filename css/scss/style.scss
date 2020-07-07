@@ -14,7 +14,8 @@ body {
 }
 
 #home-quote {
-  background: url("../../img/bg-quote.jpg") center center;
+  background: url("https://raw.githubusercontent.com/feliperocha93/caravan-bootsass/master/img/bg-quote.jpg")
+    center center;
   background-size: cover;
   @media (max-width: 767px) {
     .display-4 {
