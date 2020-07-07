@@ -1,0 +1,37 @@
+@import "bootstrap";
+
+body {
+  padding-top: 75px;
+  @media (max-width: 767px) {
+    padding-top: 0;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05), 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+}
+
+#home-quote {
+  background: url("../../img/bg-quote.jpg") center center;
+  background-size: cover;
+  @media (max-width: 767px) {
+    .display-4 {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+.lista-plano {
+  li {
+    padding: 1rem;
+  }
+  li + li {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media (max-width: 767px) {
+  .fixed-top {
+    position: relative;
+  }
+}
